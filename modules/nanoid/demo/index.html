@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>nanoid</h1>
+    <script type="module">
+      import { nanoid } from "https://cdn.jsdelivr.net/npm/nanoid/nanoid.js";
+      console.log(nanoid());
+
+      // 减小体积
+      console.log(nanoid(10));
+    </script>
+  </body>
+</html>
